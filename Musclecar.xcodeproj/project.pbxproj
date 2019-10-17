@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBDCD2AF2356DED30043A601 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBDCD2AE2356DED30043A601 /* AppKit.framework */; };
+		FBDCD2B12356DED30043A601 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBDCD2B02356DED30043A601 /* Foundation.framework */; };
+		FBDCD2B82356DED30043A601 /* Musclecar.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDCD2B72356DED30043A601 /* Musclecar.m */; };
+		FBDCD2BC2356DED30043A601 /* ZKSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDCD2BB2356DED30043A601 /* ZKSwizzle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB2A450C2356E5CA007B8A2C /* SidecarRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidecarRequest.h; sourceTree = "<group>"; };
+		FB2A450D2356EEEE007B8A2C /* SidecarService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidecarService.h; sourceTree = "<group>"; };
+		FBDCD2AB2356DED30043A601 /* Musclecar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Musclecar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDCD2AE2356DED30043A601 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		FBDCD2B02356DED30043A601 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		FBDCD2B42356DED30043A601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Musclecar/Info.plist; sourceTree = "<group>"; };
+		FBDCD2B62356DED30043A601 /* Musclecar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Musclecar.h; sourceTree = "<group>"; };
+		FBDCD2B72356DED30043A601 /* Musclecar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Musclecar.m; sourceTree = "<group>"; };
+		FBDCD2BA2356DED30043A601 /* ZKSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKSwizzle.h; sourceTree = "<group>"; };
+		FBDCD2BB2356DED30043A601 /* ZKSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKSwizzle.m; sourceTree = "<group>"; };
+		FBDCD2C42356DF7D0043A601 /* SidecarDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidecarDevice.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBDCD2A82356DED30043A601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDCD2AF2356DED30043A601 /* AppKit.framework in Frameworks */,
+				FBDCD2B12356DED30043A601 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBDCD2A22356DED30043A601 = {
+			isa = PBXGroup;
+			children = (
+				FBDCD2B22356DED30043A601 /* Musclecar */,
+				FBDCD2AD2356DED30043A601 /* Frameworks */,
+				FBDCD2AC2356DED30043A601 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDCD2AC2356DED30043A601 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBDCD2AB2356DED30043A601 /* Musclecar.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBDCD2AD2356DED30043A601 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBDCD2AE2356DED30043A601 /* AppKit.framework */,
+				FBDCD2B02356DED30043A601 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBDCD2B22356DED30043A601 /* Musclecar */ = {
+			isa = PBXGroup;
+			children = (
+				FB2A450D2356EEEE007B8A2C /* SidecarService.h */,
+				FB2A450C2356E5CA007B8A2C /* SidecarRequest.h */,
+				FBDCD2C42356DF7D0043A601 /* SidecarDevice.h */,
+				FBDCD2B62356DED30043A601 /* Musclecar.h */,
+				FBDCD2B72356DED30043A601 /* Musclecar.m */,
+				FBDCD2B92356DED30043A601 /* ZKSwizzle */,
+				FBDCD2B32356DED30043A601 /* Supporting Files */,
+			);
+			path = Musclecar;
+			sourceTree = "<group>";
+		};
+		FBDCD2B32356DED30043A601 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBDCD2B42356DED30043A601 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBDCD2B92356DED30043A601 /* ZKSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				FBDCD2BA2356DED30043A601 /* ZKSwizzle.h */,
+				FBDCD2BB2356DED30043A601 /* ZKSwizzle.m */,
+			);
+			path = ZKSwizzle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBDCD2AA2356DED30043A601 /* Musclecar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBDCD2C12356DED30043A601 /* Build configuration list for PBXNativeTarget "Musclecar" */;
+			buildPhases = (
+				FBDCD2A72356DED30043A601 /* Sources */,
+				FBDCD2A82356DED30043A601 /* Frameworks */,
+				FBDCD2A92356DED30043A601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Musclecar;
+			productName = Musclecar;
+			productReference = FBDCD2AB2356DED30043A601 /* Musclecar.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBDCD2A32356DED30043A601 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Wolfgang Baird";
+				TargetAttributes = {
+					FBDCD2AA2356DED30043A601 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = FBDCD2A62356DED30043A601 /* Build configuration list for PBXProject "Musclecar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBDCD2A22356DED30043A601;
+			productRefGroup = FBDCD2AC2356DED30043A601 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBDCD2AA2356DED30043A601 /* Musclecar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBDCD2A92356DED30043A601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBDCD2A72356DED30043A601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDCD2B82356DED30043A601 /* Musclecar.m in Sources */,
+				FBDCD2BC2356DED30043A601 /* ZKSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBDCD2BF2356DED30043A601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		FBDCD2C02356DED30043A601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+			};
+			name = Release;
+		};
+		FBDCD2C22356DED30043A601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = EX596BNL45;
+				DSTROOT = /;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Musclecar/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/MacEnhance/Plugins";
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macenhance.Musclecar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FBDCD2C32356DED30043A601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = EX596BNL45;
+				DSTROOT = /;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Musclecar/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/MacEnhance/Plugins";
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macenhance.Musclecar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBDCD2A62356DED30043A601 /* Build configuration list for PBXProject "Musclecar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDCD2BF2356DED30043A601 /* Debug */,
+				FBDCD2C02356DED30043A601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBDCD2C12356DED30043A601 /* Build configuration list for PBXNativeTarget "Musclecar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDCD2C22356DED30043A601 /* Debug */,
+				FBDCD2C32356DED30043A601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBDCD2A32356DED30043A601 /* Project object */;
+}
