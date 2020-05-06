@@ -4,7 +4,7 @@
 
 # Information:
 
-- Designed for 10.5+
+- Designed for 10.15+
 - This plugin enables unsupported iPads to be used as a sidecar display
 - Some iPads may require wired connect
 - Currently supported iPads: 
